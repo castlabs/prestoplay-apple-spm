@@ -49,35 +49,35 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PRESTOplay",
-            url: "https://cocoapods.players.castlabs.com/4.0.23/PRESTOplay.xcframework.zip",
-            checksum: "cd89d8b84dac211ed211ae9f00972d5c4a305d28a70a0aacc51b9b1b93eb5fd2"),
+            url: "https://cocoapods.players.castlabs.com/4.0.24/PRESTOplay.xcframework.zip",
+            checksum: "bd7c64310db65ef89fbb2e11ed84508367fa9e631e73c2f81642721177ae063d"),
         .binaryTarget(
             name: "CastlabsApple",
-            url: "https://cocoapods.players.castlabs.com/4.0.23/CastlabsApple.xcframework.zip",
-            checksum: "ac66850cf7218b564931b6fe6d98dfbdc15602f7ff2394998f12476d3cf9b093"),
+            url: "https://cocoapods.players.castlabs.com/4.0.24/CastlabsApple.xcframework.zip",
+            checksum: "a69e897c4644862475250dfa2e4c178775b36f761fa0c2e773df141867f3923f"),
         .binaryTarget(
             name: "CastlabsVT",
-            url: "https://cocoapods.players.castlabs.com/4.0.23/CastlabsVT.xcframework.zip",
-            checksum: "8c34824b081415a51e516825089e7446d2470663eef0c97e06dafe5cfa4fef32"),
+            url: "https://cocoapods.players.castlabs.com/4.0.24/CastlabsVT.xcframework.zip",
+            checksum: "ae3332c430fdc5642d7b04865b547a0ebafbb962997c749d833e623b4f975232"),
         .binaryTarget(
             name: "CastlabsVTWithWidevine",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsVTWithWidevine.xcframework.zip",
-            checksum: "660ef914076eaad206f9d0afe9b752a287c3195ff0835d29cede543652c5146c"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsVTWithWidevine.xcframework.zip",
+            checksum: "6995d503ea86112587fc5ee4473c193b900496a624c4aa01394d2ef967dc6333"),
         .binaryTarget(
             name: "CastlabsGst",
-            url: "https://cocoapods.players.castlabs.com/4.0.23/CastlabsGst.xcframework.zip",
-            checksum: "b621c09424c2170346e21f0d016fd2c596798771470be0443a9473a7b0f87280"),
+            url: "https://cocoapods.players.castlabs.com/4.0.24/CastlabsGst.xcframework.zip",
+            checksum: "f605098ef2f15dff6834e8ccaca211687e28535803f8e551b102b959ae6a96dd"),
         .binaryTarget(
             name: "CastlabsSubtitles",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsSubtitles.xcframework.zip",
-            checksum: "0926fec75f86d3767094482af8d0713d2b0866e6e4fa7a95de5891252b7929b7"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsSubtitles.xcframework.zip",
+            checksum: "4e5ef7cfde57cb536c60eafa2a764ced602b6f30da9917bb86d879fc79392cda"),
         .binaryTarget(
             name: "CastlabsBroadpeak",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsBroadpeak.xcframework.zip",
-            checksum: "b5d78f33c3ae255f4181abb1d41c3932dc4ee96c2fa55756b9f4f82ec491ef8f"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsBroadpeak.xcframework.zip",
+            checksum: "30489f1fbcc55533f89badb2833bf287c7379beee1f6376aebf8ac4faeed0140"),
         .binaryTarget(
             name: "SmartLib",
             path: "libs/smartlib-package/Frameworks/SmartLib.xcframework"
@@ -85,31 +85,31 @@ let package = Package(
         .binaryTarget(
             name: "CastlabsChromecast",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsChromecast.xcframework.zip",
-            checksum: "39236cdb42d9dd6315409d09aec4b95b1db20f1d62a2ffac560560484c654834"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsChromecast.xcframework.zip",
+            checksum: "ed21a2ff3db20e6463f4a2269fca805d4a8fe1e386cb69ca4145deeeea98cb0f"),
         .binaryTarget(
             name: "CastlabsConviva",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsConviva.xcframework.zip",
-            checksum: "b3a3c8970c8200f7926f950b9e343b0a02a856882ab032f60d21640aedf6f6a2"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsConviva.xcframework.zip",
+            checksum: "11b10df7631943781df9a5af63e75ae639b648a6d6f0793e59c8018f656c2a02"),
         .binaryTarget(
             name: "CastlabsDownloader",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsDownloader.xcframework.zip",
-            checksum: "68164dbc780bc88c78b91837e7e018724a95df36b6c9656e368490741d8d9a6e"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsDownloader.xcframework.zip",
+            checksum: "4f9149641692f6c55e80ee11e1eee8d3087ba4d89a6f92c934feacdc6c455d46"),
         .binaryTarget(
             name: "CastlabsIMA",
-            url: "https://cocoapods.players.castlabs.com/4.0.23/CastlabsIMA.xcframework.zip",
-            checksum: "06e7c323b93e0fd9a140c53574440fa5772f6481c2f7d25d53f7d01037025d69"),
+            url: "https://cocoapods.players.castlabs.com/4.0.24/CastlabsIMA.xcframework.zip",
+            checksum: "1c27aaf043e8e051e84e3dbc9fef233db27b70512bdb6685d9427a769781ac5d"),
         .binaryTarget(
             name: "CastlabsThumbnails",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsThumbnails.xcframework.zip",
-            checksum: "e6c2dcc9493008d6d01f299ddc0fc33f57c918e99b5440c4cbe97833bf042f81"),
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsThumbnails.xcframework.zip",
+            checksum: "62ae22502fb3abb261934fff423cc4f1c3df61f3e18d8dd4896235d9cbbc454a"),
         .binaryTarget(
             name: "CastlabsYoubora",
             url:
-                "https://cocoapods.players.castlabs.com/4.0.23/CastlabsYoubora.xcframework.zip",
-            checksum: "0819a7671037ae528a28071a396a9a347d939e587e2efec7ffd343abf287a029")
+                "https://cocoapods.players.castlabs.com/4.0.24/CastlabsYoubora.xcframework.zip",
+            checksum: "4690ca007f7602b025a1827cabae1a1ca19c3dca4f20c9b14b703cc876e61d12")
     ]
 )
