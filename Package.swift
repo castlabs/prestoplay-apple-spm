@@ -74,7 +74,7 @@ let package = Package(
         .target(
             name: "PRESTOplayTarget",
             dependencies: [
-                .product(name: "PRESTOplay", package: "prestoplay-apple-core-spm"),
+                .product(name: "PRESTOplayCore", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/PRESTOplay"
         ),
@@ -82,7 +82,7 @@ let package = Package(
             name: "CastlabsAppleTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsApple", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsApplePlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsApple"
         ),
@@ -90,7 +90,7 @@ let package = Package(
             name: "CastlabsVTTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsVT", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsVTPlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsVT"
         ),
@@ -98,7 +98,7 @@ let package = Package(
             name: "CastlabsVTWithWidevineTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsVTWithWidevine", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsVTWithWidevinePlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "Protobuf", package: "protobuf-spm"),
             ],
             path: "Sources/CastlabsVTWithWidevine"
@@ -107,7 +107,7 @@ let package = Package(
             name: "CastlabsGstTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsGst", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsGstPlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsGst"
         ),
@@ -115,7 +115,7 @@ let package = Package(
             name: "CastlabsSubtitlesTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsSubtitles", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsSubtitlesPlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsSubtitles"
         ),
@@ -123,7 +123,7 @@ let package = Package(
             name: "CastlabsDownloaderTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsDownloader", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsDownloaderPlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsDownloader"
         ),
@@ -131,7 +131,7 @@ let package = Package(
             name: "CastlabsThumbnailsTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsThumbnails", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsThumbnailsPlugin", package: "prestoplay-apple-core-spm"),
             ],
             path: "Sources/CastlabsThumbnails"
         ),
@@ -139,7 +139,7 @@ let package = Package(
             name: "CastlabsChromecastTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsChromecast", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsChromecastPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "GoogleCastDynamic", package: "google-cast-spm")
             ],
             path: "Sources/CastlabsChromecast"
@@ -148,7 +148,7 @@ let package = Package(
             name: "CastlabsIMATarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsIMA", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsIMAPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "GoogleInteractiveMediaAds",
                          package: "swift-package-manager-google-interactive-media-ads-ios",
                          condition: .when(platforms: [.iOS])),
@@ -162,7 +162,7 @@ let package = Package(
             name: "CastlabsBroadpeakTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsBroadpeak", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsBroadpeakPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "SmartLib-Generic", package: "smartlib-package")
             ],
             path: "Sources/CastlabsBroadpeak"
@@ -171,7 +171,7 @@ let package = Package(
             name: "CastlabsYouboraTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsYoubora", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsYouboraPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "NpawPlugin", package: "plugin-ios"),
             ],
             path: "Sources/CastlabsYoubora"
@@ -180,7 +180,7 @@ let package = Package(
             name: "CastlabsConvivaTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsConviva", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsConvivaPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "ConvivaSDK", package: "conviva-ios-sdk-spm"),
             ],
             path: "Sources/CastlabsConviva"
@@ -189,7 +189,7 @@ let package = Package(
             name: "CastlabsMuxTarget",
             dependencies: [
                 .target(name: "PRESTOplayTarget"),
-                .product(name: "CastlabsMux", package: "prestoplay-apple-core-spm"),
+                .product(name: "CastlabsMuxPlugin", package: "prestoplay-apple-core-spm"),
                 .product(name: "MuxCore", package: "stats-sdk-objc"),
             ],
             path: "Sources/CastlabsMux"
