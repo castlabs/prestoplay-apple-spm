@@ -2,12 +2,12 @@
 
 import PackageDescription
 
-let prestoPlayVersion: Version = "4.0.27"
+let prestoPlayVersion: Version = "4.1.0"
 let protobufVersion: Version = "3.13.0"
 let googleCastVersion: Version = "4.8.4"
 let googleIMAiOSVersion: Version = "3.27.4"
 let googleIMAtvOSVersion: Version = "4.12.0"
-let smartlibVersion: Version = "5.1.1"
+let smartlibVersion: Version = "6.0.2"
 let youboraVersion: Version = "7.3.18"
 let convivaVersion: Version = "4.0.47"
 let muxStatsVersion: Version = "5.1.1"
