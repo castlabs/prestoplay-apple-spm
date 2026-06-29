@@ -27,7 +27,7 @@ These are the exact dependency constraints declared in `Package.swift`:
 
 | Package | URL | Version |
 |---|---|---|
-| `prestoplay-apple-core-spm` | `https://github.com/castlabs/prestoplay-apple-core-spm.git` | `from: 4.1.0` |
+| `prestoplay-apple-core-spm` | `https://github.com/castlabs/prestoplay-apple-core-spm.git` | `from: 4.1.1` |
 | `protobuf-spm` | `https://github.com/castlabs/protobuf-spm.git` | `from: 3.13.0` |
 | `google-cast-spm` | `https://github.com/castlabs/google-cast-spm.git` | `from: 4.8.4` |
 | `swift-package-manager-google-interactive-media-ads-ios` | `https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git` | `from: 3.27.4` |
