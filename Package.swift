@@ -2,15 +2,15 @@
 
 import PackageDescription
 
-let prestoPlayVersion: Version = "4.1.1"
+let prestoPlayVersion: Version = "4.1.2"
 let protobufVersion: Version = "3.13.0"
 let googleCastVersion: Version = "4.8.4"
 let googleIMAiOSVersion: Version = "3.27.4"
 let googleIMAtvOSVersion: Version = "4.12.0"
 let smartlibVersion: Version = "6.0.2"
-let youboraVersion: Version = "7.3.18"
+let youboraVersion: Version = "7.3.31"
 let convivaVersion: Version = "4.0.47"
-let muxStatsVersion: Version = "5.1.1"
+let muxStatsVersion: Version = "5.13.0"
 
 let package = Package(
     name: "PRESTOplaySDK",
