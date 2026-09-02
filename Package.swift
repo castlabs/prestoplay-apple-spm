@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let prestoPlayVersion: Version = "4.1.2"
+let prestoPlayVersion: Version = "4.2.0"
 let protobufVersion: Version = "3.13.0"
 let googleCastVersion: Version = "4.8.4"
 let googleIMAiOSVersion: Version = "3.27.4"
